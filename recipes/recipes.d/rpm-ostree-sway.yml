@@ -10,6 +10,7 @@ install:
   - bat
   - brightnessctl
   - btop
+  - cmatrix
   - crun
   - ddcutil
   - freeipa-client
