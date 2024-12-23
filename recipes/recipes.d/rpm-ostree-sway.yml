@@ -62,6 +62,7 @@ install:
   - wob
   - wofi
   - wol
+  - zoxide
 
 
 remove:
