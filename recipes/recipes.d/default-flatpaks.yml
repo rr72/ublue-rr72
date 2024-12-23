@@ -1,4 +1,5 @@
 ---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
 type: default-flatpaks
 
 notify: true # Send notification after install/uninstall is finished (true/false)
@@ -15,7 +16,7 @@ system:
     - org.localsend.localsend_app
     - org.videolan.VLC
 
-  remove:
+  remove: []
     # nothing
 
 # A flatpak repo can also be added without having to install flatpaks,

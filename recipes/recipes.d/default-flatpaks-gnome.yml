@@ -1,4 +1,5 @@
 ---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
 type: default-flatpaks-gnome
 
 notify: true # Send notification after install/uninstall is finished (true/false)
@@ -16,5 +17,5 @@ system:
     - org.localsend.localsend_app
     - org.videolan.VLC
     
-  remove:
+  remove: []
     # nothing
