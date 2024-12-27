@@ -5,3 +5,12 @@ install:
   - freeipa-client
   - freeipa-client-epn
   - freeipa-client-samba
+  - freeipa-selinux
+  - openldap-clients
+  - python3-freeipa
+  - sssd-dbus
+  - sssd-krb5
+  - sssd-ldap
+  - sssd-passkey
+  - sssd-proxy
+  - sssd-tools
