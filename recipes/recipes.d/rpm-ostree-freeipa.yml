@@ -1,0 +1,7 @@
+---
+type: rpm-ostree
+
+install:
+  - freeipa-client
+  - freeipa-client-epn
+  - freeipa-client-samba
