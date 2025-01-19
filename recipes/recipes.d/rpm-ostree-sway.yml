@@ -46,6 +46,7 @@ install:
   - qemu-user-binfmt
   - qemu-user-static
   - ranger
+  - rsync
   - syncthing
   - tilix
   - tmux
