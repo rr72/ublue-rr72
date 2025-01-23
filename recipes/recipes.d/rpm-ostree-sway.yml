@@ -11,6 +11,7 @@ install:
   - crun
   - ddcutil
   - eza
+  - fastfetch
   - flatseal
   - freeipa-client
   - freeipa-client-epn

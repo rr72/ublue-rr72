@@ -7,6 +7,7 @@ install:
   - btop
   - crun
   - ddcutil
+  - fastfetch
   - freeipa-client
   - freeipa-client-epn
   - freeipa-client-samba
