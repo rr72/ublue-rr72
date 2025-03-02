@@ -8,7 +8,7 @@ base-image: ghcr.io/ublue-os/sericea-main
 image-version: 41 # latest is also supported if you want new updates ASAP
 
 modules:
-  - from-file: recipes.d/akmods-framework.yml
+#  - from-file: recipes.d/akmods-framework.yml
   - from-file: recipes.d/files.yml
   - from-file: recipes.d/fonts.yml
   - from-file: recipes.d/rpm-ostree-sway.yml
