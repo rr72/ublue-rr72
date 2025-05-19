@@ -15,6 +15,7 @@ system:
     - org.gnome.Evince
     - org.localsend.localsend_app
     - org.mozilla.firefox
+    - md.obsidian.Obsidian
     - org.videolan.VLC
 
   remove: []
