@@ -13,9 +13,6 @@ install:
   - eza
   - fastfetch
   - flatseal
-  - freeipa-client
-  - freeipa-client-epn
-  - freeipa-client-samba
   - fzf
   - gnome-keyring
   - gnome-software
