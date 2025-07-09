@@ -24,6 +24,7 @@ install:
   - kitty-kitten
   - kitty-shell-integration
   - kitty-terminfo
+  - lldpd
   - luarocks
   - mc
   - neovim
