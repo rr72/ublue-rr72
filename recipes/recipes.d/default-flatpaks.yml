@@ -1,31 +1,23 @@
 ---
-# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+
 type: default-flatpaks
-
-notify: true # Send notification after install/uninstall is finished (true/false)
-
-system:
-  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-  repo-name: flathub
-  install:
-    - com.spotify.Client
-    - io.github.flattool.Warehouse
-    - org.chromium.Chromium
-    - org.claws_mail.Claws-Mail
-    - org.gnome.Evince
-    - org.localsend.localsend_app
-    - org.mozilla.firefox
-    - md.obsidian.Obsidian
-    - org.videolan.VLC
-
-  remove: []
-    # nothing
-
-# A flatpak repo can also be added without having to install flatpaks,
-# as long as one of the repo- fields is present
-user:
-  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-  repo-name: flathub
-  install:
-    - com.bitwarden.desktop
-    - com.logseq.Logseq
+configurations:
+  - scope: system
+    notify: true
+    repo:
+      title: Flathub (system)
+    install:
+      - com.spotify.Client
+      - io.github.flattool.Warehouse 
+      - org.chromium.Chromium
+      - org.gnome.Evince
+      - org.localsend.localsend_app
+      - org.mozilla.firefox
+      - md.obsidian.Obsidian
+      - org.videolan.VLC
+  - scope: user
+    repo:
+      title: Flathub (user)
+    install:
+      - com.bitwarden.desktop
+      - com.logseq.Logseq
