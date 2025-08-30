@@ -11,7 +11,7 @@ install:
   - cmatrix
   - crun
   - ddcutil
-  - eza
+  # - eza
   - fastfetch
   - flatseal
   - fzf
@@ -47,6 +47,13 @@ install:
   - qemu-user-static
   - ranger
   - rsync
+  - sddm
+  - sddm-wayland-sway
+  - sway
+  - sway-systemd
+  - swaybg
+  - swayidle
+  - swaylock
   - syncthing
   - tilix
   - tmux
@@ -54,6 +61,7 @@ install:
   - virt-install
   - virt-manager
   - virt-viewer
+  - waybar
   - wdisplays
   - wireguard-tools
   - wl-clipboard
@@ -67,19 +75,4 @@ install:
 remove:
   - firewalld-filesystem
   - firewalld
-  - foot
-  - NetworkManager-l2tp
-  - NetworkManager-l2tp-gnome
-  - NetworkManager-libreswan
-  - NetworkManager-libreswan-gnome
-  - NetworkManager-openconnect
-  - NetworkManager-openconnect-gnome
-  - NetworkManager-pptp
-  - NetworkManager-pptp-gnome
-  - NetworkManager-sstp
-  - NetworkManager-sstp-gnome
-  - NetworkManager-vpnc
-  - NetworkManager-vpnc-gnome
-  - rofi-wayland
-  - rofi-themes
   - virtualbox-guest-additions
