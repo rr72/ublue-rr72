@@ -28,10 +28,7 @@ install:
   - kitty-shell-integration
   - kitty-terminfo
   - lldpd
-  - luarocks
   - mc
-  - neovim
-  - neovim-qt
   - NetworkManager-tui
   - nextcloud-client
   - podman-compose
@@ -58,6 +55,7 @@ install:
   - tilix
   - tmux
   - ufw
+  - vim-default-editor
   - virt-install
   - virt-manager
   - virt-viewer
