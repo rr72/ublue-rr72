@@ -55,7 +55,7 @@ install:
   - tilix
   - tmux
   - ufw
-  - vim-default-editor
+  - vim-minimal
   - virt-install
   - virt-manager
   - virt-viewer
