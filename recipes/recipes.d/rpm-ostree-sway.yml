@@ -31,7 +31,10 @@ install:
   - mc
   - network-manager-applet
   - NetworkManager-bluetooth
+  - NetworkManager-openvpn
+  - NetworkManager-ssh
   - NetworkManager-tui
+  - NetworkManager-wifi
   - nextcloud-client
   - podman-compose
   - pwgen
