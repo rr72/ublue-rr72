@@ -29,6 +29,8 @@ install:
   - kitty-terminfo
   - lldpd
   - mc
+  - network-manager-applet
+  - NetworkManager-bluetooth
   - NetworkManager-tui
   - nextcloud-client
   - podman-compose
