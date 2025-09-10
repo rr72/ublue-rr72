@@ -5,6 +5,7 @@ install:
   - alacritty
   - autojump
   - bat
+  - blueman
   - bridge-utils
   - brightnessctl
   - btop
