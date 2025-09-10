@@ -77,12 +77,7 @@ install:
   - wol
   - zoxide
 
-
 remove:
   - firewalld-filesystem
   - firewalld
-  - glusterfs
-  - glusterfs-cli
-  - glusterfs-client-xlators
-  - glusterfs-fuse
   - virtualbox-guest-additions
