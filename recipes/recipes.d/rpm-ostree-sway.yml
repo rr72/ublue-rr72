@@ -39,6 +39,8 @@ install:
   - NetworkManager-tui
   - NetworkManager-wifi
   - nextcloud-client
+  - pcmanfm-qt
+  - pcmanfm-qt-l10n
   - podman-compose
   - pwgen
   - qemu
