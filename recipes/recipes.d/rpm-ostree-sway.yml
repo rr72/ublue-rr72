@@ -1,6 +1,9 @@
 ---
 type: rpm-ostree
 
+repos:
+  - https://pkgs.netbird.io/yum/
+
 install:
   - alacritty
   - autojump
