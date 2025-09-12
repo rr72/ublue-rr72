@@ -7,17 +7,18 @@ configurations:
     repo:
       title: Flathub (system)
     install:
+      - com.bitwarden.desktop
+      - com.logseq.Logseq
       - com.spotify.Client
+      - com.vivaldi.Vivaldi
       - io.github.flattool.Warehouse 
+      - md.obsidian.Obsidian
       - org.chromium.Chromium
       - org.gnome.Evince
       - org.localsend.localsend_app
       - org.mozilla.firefox
-      - md.obsidian.Obsidian
       - org.videolan.VLC
   - scope: user
     repo:
       title: Flathub (user)
-    install:
-      - com.bitwarden.desktop
-      - com.logseq.Logseq
+    install: []
