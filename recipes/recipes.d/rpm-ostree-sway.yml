@@ -24,6 +24,11 @@ install:
   - gnome-keyring
   - gnome-keyring-pam
   - gnome-software
+  - gvfs-fuse
+  - gvfs-goa
+  - gvfs-mtp
+  - gvfs-nfs
+  - gvfs-smb
   - htop
   - icat
   - iftop
