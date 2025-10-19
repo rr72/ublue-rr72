@@ -51,6 +51,7 @@ install:
   - pcmanfm-qt
   - pcmanfm-qt-l10n
   - podman-compose
+  - pavucontrol
   - pwgen
   - qemu
   - qemu-char-spice
