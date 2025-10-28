@@ -1,5 +1,6 @@
 ---
 # file: ublue-rr72/recipes/recipes.d/rpm-ostree-sway.yml
+# Sway packages
 
 type: rpm-ostree
 
