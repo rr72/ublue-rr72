@@ -1,0 +1,67 @@
+---
+# file: ublue-rr72/recipes/recipes.d/rpm-ostree-base.yml
+type: rpm-ostree
+
+install:
+  - alacritty
+  - autojump
+  - bat
+  - blueman
+  - brightnessctl
+  - btop
+  - cmatrix
+  - crun
+  - ddcutil
+  - fastfetch
+  - flatseal
+  - fprintd
+  - fprintd-pam
+  - fzf
+  - gnome-keyring
+  - gnome-keyring-pam
+  - gnome-software
+  - gvfs-fuse
+  - gvfs-goa
+  - gvfs-mtp
+  - gvfs-nfs
+  - gvfs-smb
+  - htop
+  - icat
+  - iftop
+  - iotop-c
+  - kitty
+  - kitty-doc
+  - kitty-kitten
+  - kitty-shell-integration
+  - kitty-terminfo
+  - lldpd
+  - mc
+  - network-manager-applet
+  - NetworkManager-bluetooth
+  - NetworkManager-openvpn
+  - NetworkManager-ssh
+  - NetworkManager-tui
+  - NetworkManager-wifi
+  - nextcloud-client
+  - pcmanfm-qt
+  - pcmanfm-qt-l10n
+  - podman-compose
+  - pavucontrol
+  - pwgen
+  - ranger
+  - rsync
+  - sddm
+  - syncthing
+  - tilix
+  - tmux
+  - vim-minimal
+  - wireguard-tools
+  - wl-clipboard
+  - wob
+  - wol
+  - zoxide
+
+remove:
+  - firefox
+  - firefox-langpacks
+  - virtualbox-guest-additions
