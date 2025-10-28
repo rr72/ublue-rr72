@@ -1,8 +1,6 @@
 ---
-type: rpm-ostree
 
-repos:
-  - https://pkgs.netbird.io/yum/
+type: rpm-ostree
 
 install:
   - alacritty
