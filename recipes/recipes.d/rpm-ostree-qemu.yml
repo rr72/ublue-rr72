@@ -1,0 +1,20 @@
+---
+# file: ublue-rr72/recipes/recipes.d/rpm-ostree-qemu.yml
+# Display Manager
+
+type: rpm-ostree
+
+install:
+  - bridge-utils
+  - qemu
+  - qemu-char-spice
+  - qemu-device-display-virtio-gpu
+  - qemu-device-display-virtio-vga
+  - qemu-device-usb-redirect
+  - qemu-img
+  - qemu-system-x86-core
+  - qemu-user-binfmt
+  - qemu-user-static
+  - virt-install
+  - virt-manager
+  - virt-viewer
