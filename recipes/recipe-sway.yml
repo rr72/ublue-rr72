@@ -1,3 +1,5 @@
+# file: ublue-rr72/recipe/recipe-sway.yml
+
 # image will be published to ghcr.io/<user>/<name>
 name: ublue-rr72-sway
 
