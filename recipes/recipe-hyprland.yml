@@ -1,0 +1,23 @@
+# file: ublue-rr72/recipe/recipe-hyprland.yml
+
+# image will be published to ghcr.io/<user>/<name>
+name: ublue-rr72-hyprland
+
+# description will be included in the image's metadata
+description: This is my personal OS image.
+
+# the base image to build on top of (FROM) and the version tag to use
+base-image: ghcr.io/ublue-os/base-main
+image-version: 42 # latest is also supported if you want new updates ASAP
+
+modules:
+  # - from-file: recipes.d/akmods-framework.yml
+  - from-file: recipes.d/files.yml
+  - from-file: recipes.d/fonts.yml
+  - from-file: recipes.d/rpm-ostree-base.yml
+  - from-file: recipes.d/rpm-ostree-hyprland.yml
+  - from-file: recipes.d/rpm-ostree-devel.yml
+  - from-file: recipes.d/rpm-ostree-qemu.yml
+  - from-file: recipes.d/default-flatpaks.yml
+
+  - type: signing
