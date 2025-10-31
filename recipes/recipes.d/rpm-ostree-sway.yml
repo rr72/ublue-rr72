@@ -5,7 +5,6 @@
 type: rpm-ostree
 
 install:
-  - sddm-wayland-sway
   - sway
   - sway-systemd
   - swaybg
