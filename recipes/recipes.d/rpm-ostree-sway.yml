@@ -5,6 +5,7 @@
 type: rpm-ostree
 
 install:
+  - niri
   - sway
   - sway-systemd
   - swaybg
