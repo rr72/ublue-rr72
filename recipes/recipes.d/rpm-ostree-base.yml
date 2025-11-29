@@ -16,6 +16,7 @@ install:
   - flatseal
   - fprintd
   - fprintd-pam
+  - framework-laptop-kmod
   - fzf
   - gnome-keyring
   - gnome-keyring-pam
@@ -34,6 +35,7 @@ install:
   - kitty-kitten
   - kitty-shell-integration
   - kitty-terminfo
+  - kmod-framework-laptop
   - lldpd
   - mc
   - network-manager-applet
