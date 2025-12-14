@@ -57,6 +57,7 @@ install:
   - tilix
   - tmux
   - vim-minimal
+  - wev
   - wireguard-tools
   - wl-clipboard
   - wob
