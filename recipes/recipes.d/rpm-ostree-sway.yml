@@ -4,6 +4,9 @@
 
 type: rpm-ostree
 
+repos:
+  - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-42/yalter-niri-fedora-42.repo
+
 install:
   - niri
   - sway
