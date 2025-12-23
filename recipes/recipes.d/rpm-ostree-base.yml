@@ -55,6 +55,7 @@ install:
   - rsync
   - sddm
   - syncthing
+  - terminus-fonts-console
   - tilix
   - tmux
   - vim-minimal
