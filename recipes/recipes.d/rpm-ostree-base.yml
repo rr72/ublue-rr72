@@ -36,6 +36,7 @@ install:
   - kitty-shell-integration
   - kitty-terminfo
   - kmod-framework-laptop
+  - langpacks-de
   - lldpd
   - mc
   - network-manager-applet
