@@ -45,10 +45,11 @@ install:
   - NetworkManager-tui
   - NetworkManager-wifi
   - nextcloud-client
+  - pavucontrol
   - pcmanfm-qt
   - pcmanfm-qt-l10n
   - podman-compose
-  - pavucontrol
+  - powertop
   - pwgen
   - ranger
   - rsync
