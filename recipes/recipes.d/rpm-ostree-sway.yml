@@ -19,5 +19,7 @@ install:
   - waybar
   - wdisplays
   - wlogout
+  - wlr-randr
   - wofi
   - xwayland-satellite
+
