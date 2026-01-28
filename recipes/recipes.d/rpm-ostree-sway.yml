@@ -8,6 +8,8 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-42/yalter-niri-fedora-42.repo
 
 install:
+  - nautilus
+  - nautilus-extensions
   - niri
   - sway
   - sway-systemd
