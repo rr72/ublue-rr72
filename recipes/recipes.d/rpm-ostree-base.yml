@@ -16,7 +16,7 @@ install:
   - flatseal
   - fprintd
   - fprintd-pam
-  - framework-laptop-kmod
+  # - framework-laptop-kmod
   - fzf
   - gnome-keyring
   - gnome-keyring-pam
@@ -36,7 +36,7 @@ install:
   - kitty-kitten
   - kitty-shell-integration
   - kitty-terminfo
-  - kmod-framework-laptop
+  # - kmod-framework-laptop
   - langpacks-de
   - lldpd
   - mc
@@ -67,8 +67,9 @@ install:
   - wob
   - wol
   - zoxide
-
+ 
 remove:
   - firefox
   - firefox-langpacks
   - virtualbox-guest-additions
+
