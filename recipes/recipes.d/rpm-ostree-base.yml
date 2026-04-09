@@ -46,7 +46,6 @@ install:
   - NetworkManager-ssh
   - NetworkManager-tui
   - NetworkManager-wifi
-  - nextcloud-client
   - pavucontrol
   - pcmanfm-qt
   - pcmanfm-qt-l10n
