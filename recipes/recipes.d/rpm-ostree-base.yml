@@ -16,6 +16,7 @@ install:
   - flatseal
   - fprintd
   - fprintd-pam
+  - freerdp
   # - framework-laptop-kmod
   - fzf
   - gnome-keyring
