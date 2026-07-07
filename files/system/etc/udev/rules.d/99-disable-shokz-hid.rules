@@ -1,0 +1,7 @@
+# Entries are based on the following Reddit post:
+#   https://www.reddit.com/r/linuxhardware/comments/1542e1r/shokz_opencomm2_usb_dongle_on_linux/ 
+#
+# Shokz Loop120 Wireless Adapter USB-A
+SUBSYSTEM=="usb", ATTRS{idVendor}=="3511", ATTRS{idProduct}=="2ef2", DRIVER=="usbhid", ATTR{authorized}="0"
+# Shokz LOOP120 Wireless Adapter USB-C
+SUBSYSTEM=="usb", ATTRS{idVendor}=="3511", ATTRS{idProduct}=="2f06", DRIVER=="usbhid", ATTR{authorized}="0" 
