@@ -54,6 +54,7 @@ install:
   - powertop
   - pwgen
   - ranger
+  - rbw
   - rsync
   - sddm
   - syncthing
