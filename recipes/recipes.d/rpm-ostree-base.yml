@@ -13,6 +13,8 @@ install:
   - crun
   - ddcutil
   - fastfetch
+  - firefox
+  - firefox-langpacks
   - flatseal
   - fprintd
   - fprintd-pam
@@ -70,7 +72,5 @@ install:
   - zoxide
  
 remove:
-  - firefox
-  - firefox-langpacks
   - virtualbox-guest-additions
 

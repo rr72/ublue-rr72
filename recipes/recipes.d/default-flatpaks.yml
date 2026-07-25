@@ -16,7 +16,6 @@ configurations:
       - org.chromium.Chromium
       - org.gnome.Evince
       - org.localsend.localsend_app
-      - org.mozilla.firefox
       - org.videolan.VLC
   - scope: user
     repo:
