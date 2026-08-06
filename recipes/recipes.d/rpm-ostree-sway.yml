@@ -18,6 +18,7 @@ install:
   - swaylock
   - waybar
   - wdisplays
+  - wl-clipboard
   - wlogout
   - wlr-randr
   - wofi
