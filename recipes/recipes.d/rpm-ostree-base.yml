@@ -57,6 +57,7 @@ install:
   - pwgen
   - ranger
   - rbw
+  - restic
   - rsync
   - sddm
   - syncthing
