@@ -6,6 +6,8 @@ type: rpm-ostree
 
 install:
   - bridge-utils
+  - guestfs-tools
+  - guestfs-tools-bash-completion
   - qemu
   - qemu-char-spice
   - qemu-device-display-virtio-gpu

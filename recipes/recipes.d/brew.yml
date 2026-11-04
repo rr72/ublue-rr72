@@ -1,0 +1,6 @@
+---
+
+type: copy
+from: ghcr.io/ublue-os/brew:latest
+src: /system_files
+dest: /
